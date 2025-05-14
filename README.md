@@ -12,19 +12,19 @@ Goal: Create an Android app with a login screen that:
 
 MVVM Architecture:
 
-Model: Represents data (login request/response JSON, API interaction).
+* Model: Represents data (login request/response JSON, API interaction).
 
-View: UI components (login screen with input fields, buttons, and toast).
+* View: UI components (login screen with input fields, buttons, and toast).
 
-ViewModel: Mediates between View and Model, handling business logic (API calls, input validation).
+* ViewModel: Mediates between View and Model, handling business logic (API calls, input validation).
 
 Android Application Components:
 
-Activity: Hosts the login UI (main screen).
+* Activity: Hosts the login UI (main screen).
 
-View Binding: Connects UI elements to code.
+* View Binding: Connects UI elements to code.
 
-Services/Receivers/Content Providers: Not needed for this simple app.
+* Services/Receivers/Content Providers: Not needed for this simple app.
 
 Dependencies:
 
